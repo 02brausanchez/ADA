@@ -1,0 +1,9 @@
+### 1. Librerías (Cabeceras) utilizadas
+
+| Librería | Propósito Principal en el Código | Elementos que aporta |
+| :--- | :--- | :--- |
+| `<stdio.h>` | Entrada y salida estándar. Permite interactuar con la terminal. | `printf()`, `scanf()`, `getchar()` |
+| `<stdlib.h>` | Funciones de utilidad estándar, incluyendo la **gestión de memoria dinámica**. | `malloc()`, `free()` |
+| `<time.h>` | Manipulación y medición del tiempo del procesador. | `clock()`, `CLOCKS_PER_SEC` |
+| `<stdint.h>` | Define tipos de enteros con anchos exactos garantizados sin importar la arquitectura de la PC. | `uint64_t` |
+| `<inttypes.h>` | Proporciona macros para usar funciones de formato (`printf`/`scanf`) con los tipos definidos en `stdint.h`. | `PRIu64`, `SCNu64` |
