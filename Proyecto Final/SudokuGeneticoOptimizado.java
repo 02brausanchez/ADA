@@ -846,7 +846,7 @@ public class SudokuGeneticoOptimizado {
 
     public static void main(String[] args) {
         Path file = Path.of(
-                "/home/braulio/Documentos/Proyecto_ADA/Casos/Dificil.txt");
+                "/home/Documentos/Proyecto_ADA/Dificil.txt");
 
         long seed = 42;
 
